@@ -1,0 +1,117 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2em
+}
+
+h1 {
+  position: relative;
+  margin-top: 50px;
+  font-size: 4.5rem;
+  font-family: "Caveat", cursive;
+  color: #125C13;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.2rem;
+  font-weight: normal;
+  color: #3E7C17;
+  margin: 50px auto;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.7rem;
+  color: #3E7C17;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #B6C867;
+}
+
+hr {
+  margin: 40px auto;
+  width: 30%;
+  border-style: dotted none none;
+  border-width: 10px;
+  border-color: rgb(115, 169, 173);
+
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  color: #3E7C17;
+  text-decoration: none
+}
+a:hover {
+  color: white;
+}
+.top-box {
+  background-color: #E8E1D9;
+  width: 100%;
+  max-height: 800px;
+  position: relative;
+}
+
+.skill-list {
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+  display: inline-block;
+  line-height: 1.5;
+}
+
+.picture-debate {
+  max-width: 50%;
+  max-height: 10%;
+  margin-right: 25px;
+  float: left;
+}
+.picture-programming {
+  max-width: 50%;
+  max-height: 10%;
+  margin-left: 25px;
+  float: right;
+}
+.picture-piano {
+  max-width: 50%;
+  max-height: 10%;
+  margin-right: 25px;
+  float: left;
+}
+.bottom-container {
+  background-color: #E4E9BE;
+  margin: 0;
+  padding: 50px 0 20px;
+}
+.copyright {
+  color: #125C13;
+  font-size: 0.75rem;
+}
+#topcloud {
+  margin: 30px;
+  position: relative;
+  top: 10px;
+  right: 20%;
+}
+
+#mountain {
+  width: 100%;
+  max-height: 403.56px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bottomcloud {
+  position: absolute;
+  margin: 5% 12.5%;
+}
